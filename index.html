@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center title text-light mt-4 mb-4">SPEED TYPING GAME</div>
+        <div class="row m-auto">
+            <div class="col-sm-12  m-auto p-0 mb-4 stats-div">
+                <div class="stats text-light p-2 d-flex justify-content-between">
+                    <p class="ml-1 my-auto p-0">STATS</p>
+                    <button class="btn btn-sm mr-1 reset">Start</button>
+                </div>
+                <div class="data d-flex justify-content-around mt-2 pt-2 px-3 pb-3">
+                    <div class="text-light">
+                        <div class="accuracy text-center text-success">0</div>
+                        <div class="data-title text-center ">ACCURACY</div>
+                    </div>
+                    <div class="data text-light">
+                        <div class="wpm text-center text-warning">0</div>
+                        <div class="data-title text-center">WPM</div>
+                    </div>
+                    <div class="data text-light">
+                        <div class="error text-center text-danger">0</div>
+                        <div class="data-title text-center">ERROR</div>
+                    </div>
+                    <div class="data text-light">
+                        <div class="time text-center text-primary">0</div>
+                        <div class="data-title text-center">TIME</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 mt-3 sentence text-light pt-2 prgrphDiv">
+                <p class="pharagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vero distinctio
+                    neque sed, voluptas repellendus natus cum delectus? Praesentium eius excepturi labore facilis
+                    commodi sit exercitationem accusantium itaque assumenda quia.</p>
+            </div>
+            <div class="col-sm-12 mt-3 sentence text-light pt-2 inputDiv">
+                <textarea class="input text-light p-2" autofocus></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
